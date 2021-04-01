@@ -1,3 +1,7 @@
 USE employees;
 
-SELECT DISTINCT title FROM titles;
+SELECT DISTINCT last_name
+FROM employees
+ORDER By last_name DESC
+    Limit 10;
+
