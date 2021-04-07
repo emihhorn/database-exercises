@@ -1,0 +1,30 @@
+Adlister App
+users
+id       |  email         | password
+1        | some@email.com | abc
+2        | ppl@email.com  | 123
+3        | ur@email.com   | xyz
+
+ads
+id       |  title  | description
+1        |  ad1    | first
+2        |  ad2    | second
+3        |  ad3    | third
+
+categories
+id          name
+1        |  furniture
+2        |  giveaway
+3        |  help wanted
+
+ad_category
+ad_id     |  category_id
+1         |  furniture
+2         |  giveaway
+3         |  help wanted
+
+user_ads
+user_id        | ad_id
+1  j.doh       | bike4$ale
+2  mo.doh      | ISO bike
+3  no.doh      | Gargage Sale
